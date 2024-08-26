@@ -1,0 +1,2 @@
+# Advanced-Neural-Network-Applications
+ This project includes detailed implementations of perceptron and linear neuron models for classifying fish based on scale ring diameter data and predicting house heat influx using north and south elevation data. The repository demonstrates the application of neural networks in solving real-world problems through manual training and optimisation of models using different datasets.
