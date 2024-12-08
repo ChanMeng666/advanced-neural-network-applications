@@ -132,7 +132,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 Please make sure to update tests as appropriate.
 
 # 📄 License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 # 🔧 Tech Stack
 ![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
