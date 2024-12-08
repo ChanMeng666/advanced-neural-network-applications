@@ -9,14 +9,14 @@
 </div>
 
 # 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Datasets](#datasets)
-- [Implementation Details](#implementation-details)
-- [Getting Started](#getting-started)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Datasets](#-datasets)
+- [Implementation Details](#-implementation-details)
+- [Getting Started](#-getting-started)
+- [Usage Examples](#-usage-examples)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 # 🔍 Project Overview
 This repository demonstrates practical applications of neural network technologies through two distinct case studies:
