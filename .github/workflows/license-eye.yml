@@ -1,0 +1,34 @@
+name: License Eye
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *'  # 每年1月1日运行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Fix License Header
+        uses: apache/skywalking-eyes/header@main
+        with:
+          mode: fix
+          config: .licenserc.yaml
+          
+      - name: Update LICENSE Year
+        run: |
+          YEAR=$(date +%Y)
+          sed -i "s/Copyright (c) .* YOUR_NAME/Copyright (c) $YEAR YOUR_NAME/" LICENSE
+      
+      - name: Apply Changes
+        uses: EndBug/add-and-commit@v9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          author_name: License Bot
+          author_email: license_bot@github.com
+          message: 'chore: update license year to current year'
