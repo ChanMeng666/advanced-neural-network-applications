@@ -14,34 +14,34 @@ jobs:
         with:
           fetch-depth: 0
       
+      - name: Get current year
+        id: year
+        run: echo "year=$(date +%Y)" >> $GITHUB_OUTPUT
+      
       - name: Update license year
         run: |
-          CURRENT_YEAR=$(date +%Y)
           # 更新 LICENSE 文件
-          sed -i "s/Copyright (c) [0-9]* Chan Meng/Copyright (c) ${CURRENT_YEAR} Chan Meng/" LICENSE
+          sed -i "s/Copyright (c) [0-9]\{4\} Chan Meng/Copyright (c) ${{ steps.year.outputs.year }} Chan Meng/" LICENSE
           # 更新 license 模板
-          sed -i "s/Copyright (c) [0-9]* Chan Meng/Copyright (c) ${CURRENT_YEAR} Chan Meng/" .github/license-templates/MIT.txt
+          sed -i "s/Copyright (c) [0-9]\{4\} Chan Meng/Copyright (c) ${{ steps.year.outputs.year }} Chan Meng/" .github/license-templates/MIT.txt
       
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
-      
-      - name: Commit and create PR
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add LICENSE .github/license-templates/MIT.txt
-          git commit -m "chore: update license year to $(date +%Y)"
-          git push origin HEAD:update-license-year-$(date +%Y)
+          git diff --quiet LICENSE || echo "changes=true" >> $GITHUB_OUTPUT
       
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "chore: update license year to ${{ steps.get_year.outputs.year }}"
+          commit-message: "chore: update license year to ${{ steps.year.outputs.year }}"
           title: "chore: update license year"
-          body: "Automatically update license year to ${{ steps.get_year.outputs.year }}"
+          body: |
+            Automatically update license year to ${{ steps.year.outputs.year }}.
+            
+            Changes made:
+            - Updated year in LICENSE file
+            - Updated year in license template
           branch: "chore/update-license-year"
+          base: main
           delete-branch: true
