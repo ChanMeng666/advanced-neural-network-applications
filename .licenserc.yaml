@@ -1,9 +1,9 @@
 header:
   license:
     spdx-id: MIT  # 使用 MIT license
-    copyright-owner: YOUR_NAME  # 修改为你的名字
+    copyright-owner: Chan Meng
     copyright-year: '' # 留空以使用当前年份
-    software-name: YOUR_PROJECT_NAME # 修改为你的项目名
+    software-name: Advanced Neural Network Applications
 
   paths-ignore:
     - 'dist'
