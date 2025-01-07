@@ -1,39 +1,18 @@
 header:
   license:
-    spdx-id: MIT
-    copyright-owner: Chan Meng
-    copyright-year: '*'  # 使用 '*' 来自动检测年份
-    
-  paths:
-    - '*.js'
-    - 'src/**/*.js'
-    - 'LICENSE'  # 添加 LICENSE 文件到检查路径中
-    
+    spdx-id: MIT  # 使用 MIT license
+    copyright-owner: YOUR_NAME  # 修改为你的名字
+    copyright-year: '' # 留空以使用当前年份
+    software-name: YOUR_PROJECT_NAME # 修改为你的项目名
+
   paths-ignore:
-    - 'node_modules/**'
-    - 'dist/**'
-    - 'build/**'
-    - '**/*.json'
+    - 'dist'
+    - 'licenses'
     - '**/*.md'
-    - '**/*.yml'
-    - '**/*.yaml'
-    - '**/*.svg'
-    
+    - 'LICENSE'
+    - 'NOTICE'
+    - '**/node_modules/**'
+    - 'package-lock.json'
+    - 'yarn.lock'
+
   comment: on-failure
-
-  language:
-    JavaScript:
-      extensions:
-        - ".js"
-      comment_style_id: SlashAsterisk
-    # 添加 LICENSE 文件的语言配置
-    Plain:
-      extensions:
-        - ""  # 无扩展名的文件
-      filenames:
-        - "LICENSE"
-      comment_style_id: Plain
-
-dependency:
-  files:
-    - package.json
