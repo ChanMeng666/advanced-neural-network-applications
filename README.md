@@ -2,7 +2,7 @@
 
 [![Project Banner](https://via.placeholder.com/1200x400/000000/FFFFFF?text=Advanced+Neural+Network+Applications)](#)
 
-# 🧠 Advanced Neural Network Applications<br/><small>Practical Implementations of Perceptron and Linear Neuron Models</small>
+# 🧠 Advanced Neural Network Applications<br/><h3>Practical Implementations of Perceptron and Linear Neuron Models</h3>
 
 A comprehensive educational repository demonstrating fundamental neural network architectures through practical applications including fish classification and heat influx prediction.<br/>
 Features detailed mathematical analysis, step-by-step implementations, and interactive visualizations.<br/>
