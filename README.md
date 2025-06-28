@@ -952,4 +952,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <!-- Images -->
 [image-star]: https://via.placeholder.com/800x200/FFD700/000000?text=Star+Us+on+GitHub
 [image-feat-perceptron]: https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Perceptron+Implementation
-</rewritten_file>
