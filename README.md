@@ -38,28 +38,45 @@ Perfect for **learning** the foundations of neural networks and machine learning
 > [!TIP]
 > Interactive Jupyter notebooks showcase neural network behavior through comprehensive visualizations and step-by-step analysis.
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x500/4CAF50/FFFFFF?text=Perceptron+Classification+Boundaries" alt="Perceptron Classification" width="800"/>
-  <p><em>Perceptron Model - Dynamic Classification Boundary Evolution</em></p>
-</div>
+### 🧠 Perceptron Classification Results
 
 <div align="center">
-  <img src="https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Fish+Data+Classification" alt="Fish Classification" width="400"/>
-  <img src="https://via.placeholder.com/400x300/FF9800/FFFFFF?text=Heat+Influx+3D+Visualization" alt="Heat Influx 3D" width="400"/>
-  <p><em>Fish Species Classification (left) and 3D Heat Influx Prediction Surface (right)</em></p>
+  <img src="public/img/Perceptron-Classification-Boundaries-with-Annotations.png" alt="Perceptron Classification Boundaries" width="800"/>
+  <p><em>Perceptron Model - Classification Boundaries with Annotations</em></p>
+</div>
+
+### 🔥 Heat Influx Prediction Visualizations
+
+<div align="center">
+  <img src="public/img/3D-Plot-of-Predicted-Heat-Influx-with-Actual-Data-Points.png" alt="3D Heat Influx Plot" width="600"/>
+  <p><em>3D Visualization of Predicted Heat Influx with Actual Data Points</em></p>
 </div>
 
 <details>
 <summary><kbd>📊 More Visualizations</kbd></summary>
 
+#### Comparison Charts
+
 <div align="center">
-  <img src="https://via.placeholder.com/600x400/9C27B0/FFFFFF?text=Weight+Update+Analysis" alt="Weight Updates" width="600"/>
-  <p><em>Real-time Weight Update Visualization During Training</em></p>
+  <img src="public/img/Comparison-of-Actual-and-Predicted-Heat-Influx.png" alt="Heat Influx Comparison" width="600"/>
+  <p><em>Comparison of Actual vs Predicted Heat Influx Values</em></p>
 </div>
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x400/F44336/FFFFFF?text=Error+Analysis+Charts" alt="Error Analysis" width="600"/>
-  <p><em>Comprehensive Error Analysis and Performance Metrics</em></p>
+  <img src="public/img/Comparison-of-Actual-and-Predicted-Heat-Influx-1.png" alt="Heat Influx Comparison 2" width="600"/>
+  <p><em>Detailed Comparison Analysis of Heat Influx Predictions</em></p>
+</div>
+
+#### Optimized Linear Model Results
+
+<div align="center">
+  <img src="public/img/Optimized-Linear-Model-Fit-for-Heat-Influx-Prediction.png" alt="Optimized Linear Model" width="600"/>
+  <p><em>Optimized Linear Model Fit for Heat Influx Prediction</em></p>
+</div>
+
+<div align="center">
+  <img src="public/img/Optimized-Linear-Model-Fit-for-Heat-Influx-Prediction-1.png" alt="Optimized Linear Model 2" width="600"/>
+  <p><em>Enhanced Linear Model Optimization Results</em></p>
 </div>
 
 </details>
