@@ -106,6 +106,10 @@ Perfect for **learning** the foundations of neural networks and machine learning
 
 - [🧠 Advanced Neural Network ApplicationsPractical Implementations of Perceptron and Linear Neuron Models](#-advanced-neural-network-applicationspractical-implementations-of-perceptron-and-linear-neuron-models)
   - [📸 Project Visualizations](#-project-visualizations)
+    - [🧠 Perceptron Classification Results](#-perceptron-classification-results)
+    - [🔥 Heat Influx Prediction Visualizations](#-heat-influx-prediction-visualizations)
+      - [Comparison Charts](#comparison-charts)
+      - [Optimized Linear Model Results](#optimized-linear-model-results)
       - [TOC](#toc)
       - [](#)
   - [🌟 Introduction](#-introduction)
