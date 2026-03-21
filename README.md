@@ -61,6 +61,11 @@ You can run all notebooks directly in your browser — no local installation req
   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChanMeng666/advanced-neural-network-applications/main?labpath=notebooks)
 - **Google Colab** — open individual notebooks via the links in the table below.
 
+<div align="center">
+  <img src="images/mybinder.org.png" alt="Binder screenshot — running notebooks in the browser" width="800"/>
+  <p><em>Running notebooks interactively on Binder</em></p>
+</div>
+
 ## Notebooks
 
 | # | Notebook | Topic | Description | Colab |
