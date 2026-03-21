@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this project in your research or teaching, please cite it as below."
+type: software
+title: "Advanced Neural Network Applications"
+abstract: "Practical implementations of perceptron and linear neuron models for classification and regression, with step-by-step mathematical analysis and visualizations in Jupyter notebooks."
+authors:
+  - family-names: "Meng"
+    given-names: "Chan"
+    orcid: ""
+    affiliation: ""
+repository-code: "https://github.com/ChanMeng666/advanced-neural-network-applications"
+url: "https://github.com/ChanMeng666/advanced-neural-network-applications"
+license: MIT
+version: "1.0.0"
+date-released: "2026-03-21"
+keywords:
+  - neural-network
+  - perceptron
+  - linear-neuron
+  - machine-learning
+  - classification
+  - regression
+  - gradient-descent
+  - educational
+  - jupyter-notebook
+  - python
