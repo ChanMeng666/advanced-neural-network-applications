@@ -515,7 +515,7 @@ If this project helped you learn, consider supporting its development!
 
 <p align="center">
   <a href="https://github.com/ChanMeng666/advanced-neural-network-applications/stargazers">
-    <img src="https://reporoster.com/stars/ChanMeng666/advanced-neural-network-applications" alt="Stargazers repo roster for @ChanMeng666/advanced-neural-network-applications"/>
+    <img src="https://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=ChanMeng666&repo=advanced-neural-network-applications" alt="Stargazers repo roster for @ChanMeng666/advanced-neural-network-applications"/>
   </a>
 </p>
 
@@ -523,7 +523,7 @@ If this project helped you learn, consider supporting its development!
 
 <p align="center">
   <a href="https://github.com/ChanMeng666/advanced-neural-network-applications/network/members">
-    <img src="https://reporoster.com/forks/ChanMeng666/advanced-neural-network-applications" alt="Forkers repo roster for @ChanMeng666/advanced-neural-network-applications"/>
+    <img src="https://bytecrank.com/nastyox/reporoster/php/forkersSVG.php?user=ChanMeng666&repo=advanced-neural-network-applications" alt="Forkers repo roster for @ChanMeng666/advanced-neural-network-applications"/>
   </a>
 </p>
 
@@ -548,10 +548,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙋‍♀️ Author
 
 **Chan Meng**
-- <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="16" height="16"> LinkedIn: [chanmeng666](https://www.linkedin.com/in/chanmeng666/)
-- <img src="https://cdn.simpleicons.org/github/181717" width="16" height="16"> GitHub: [ChanMeng666](https://github.com/ChanMeng666)
-- <img src="https://cdn.simpleicons.org/gmail/EA4335" width="16" height="16"> Email: [chanmeng.dev@gmail.com](mailto:chanmeng.dev@gmail.com)
-- <img src="https://cdn.simpleicons.org/internetexplorer/0078D4" width="16" height="16"> Website: [chanmeng.org](https://chanmeng.org/)
+
+<p>
+  <a href="https://www.linkedin.com/in/chanmeng666/">
+    <img src="https://img.shields.io/badge/LinkedIn-chanmeng666-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/ChanMeng666">
+    <img src="https://img.shields.io/badge/GitHub-ChanMeng666-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:chanmeng.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-chanmeng.dev@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://chanmeng.org/">
+    <img src="https://img.shields.io/badge/Website-chanmeng.org-4285F4?style=flat&logo=googlechrome&logoColor=white" alt="Website"/>
+  </a>
+</p>
 
 ---
 
