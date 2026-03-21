@@ -5,6 +5,7 @@ Practical implementations of perceptron and linear neuron models for classificat
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://python.org)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://jupyter.org)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChanMeng666/advanced-neural-network-applications/main)
 
 ## Overview
 
@@ -52,17 +53,25 @@ Each notebook includes detailed mathematical derivations, step-by-step weight up
 
 </details>
 
+## Try It Online
+
+You can run all notebooks directly in your browser — no local installation required:
+
+- **Binder** — launch the full interactive environment:
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChanMeng666/advanced-neural-network-applications/main?labpath=notebooks)
+- **Google Colab** — open individual notebooks via the links in the table below.
+
 ## Notebooks
 
-| # | Notebook | Topic | Description |
-|---|----------|-------|-------------|
-| 1 | [01-perceptron-basics](notebooks/01-perceptron-basics.ipynb) | Perceptron | Binary classification with fish species data, weight initialization, activation functions |
-| 2 | [02-perceptron-analysis](notebooks/02-perceptron-analysis.ipynb) | Perceptron | Mathematical analysis, convergence proofs, classification boundary visualization |
-| 3 | [03-linear-neuron-single-input](notebooks/03-linear-neuron-single-input.ipynb) | Linear Neuron | Single-input regression predicting heat influx from north elevation |
-| 4 | [04-linear-neuron-optimization](notebooks/04-linear-neuron-optimization.ipynb) | Optimization | Learning rate tuning, gradient descent, convergence analysis |
-| 5 | [05-linear-neuron-multi-input](notebooks/05-linear-neuron-multi-input.ipynb) | Linear Neuron | Multi-input regression using north and south elevation measurements |
-| 6 | [06-linear-neuron-validation](notebooks/06-linear-neuron-validation.ipynb) | Validation | Model validation and testing procedures |
-| 7 | [07-linear-neuron-3d-visualization](notebooks/07-linear-neuron-3d-visualization.ipynb) | Visualization | Interactive 3D prediction surface rendering |
+| # | Notebook | Topic | Description | Colab |
+|---|----------|-------|-------------|-------|
+| 1 | [01-perceptron-basics](notebooks/01-perceptron-basics.ipynb) | Perceptron | Binary classification with fish species data, weight initialization, activation functions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/01-perceptron-basics.ipynb) |
+| 2 | [02-perceptron-analysis](notebooks/02-perceptron-analysis.ipynb) | Perceptron | Mathematical analysis, convergence proofs, classification boundary visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/02-perceptron-analysis.ipynb) |
+| 3 | [03-linear-neuron-single-input](notebooks/03-linear-neuron-single-input.ipynb) | Linear Neuron | Single-input regression predicting heat influx from north elevation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/03-linear-neuron-single-input.ipynb) |
+| 4 | [04-linear-neuron-optimization](notebooks/04-linear-neuron-optimization.ipynb) | Optimization | Learning rate tuning, gradient descent, convergence analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/04-linear-neuron-optimization.ipynb) |
+| 5 | [05-linear-neuron-multi-input](notebooks/05-linear-neuron-multi-input.ipynb) | Linear Neuron | Multi-input regression using north and south elevation measurements | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/05-linear-neuron-multi-input.ipynb) |
+| 6 | [06-linear-neuron-validation](notebooks/06-linear-neuron-validation.ipynb) | Validation | Model validation and testing procedures | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/06-linear-neuron-validation.ipynb) |
+| 7 | [07-linear-neuron-3d-visualization](notebooks/07-linear-neuron-3d-visualization.ipynb) | Visualization | Interactive 3D prediction surface rendering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChanMeng666/advanced-neural-network-applications/blob/main/notebooks/07-linear-neuron-3d-visualization.ipynb) |
 
 **Recommended learning path:** Start with notebook 01, then progress sequentially through the series.
 
