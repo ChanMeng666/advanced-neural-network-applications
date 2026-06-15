@@ -87,4 +87,4 @@ This project uses [Conventional Commits](https://www.conventionalcommits.org/):
 
 ## Code of Conduct
 
-All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Please report unacceptable behavior to ChanMeng666@outlook.com.
+All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Please report unacceptable behavior to chanmeng.dev@gmail.com.

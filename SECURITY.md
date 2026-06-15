@@ -12,7 +12,7 @@ If you discover a security vulnerability in this project, please report it respo
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, please send an email to **ChanMeng666@outlook.com** with the following details:
+Instead, please send an email to **chanmeng.dev@gmail.com** with the following details:
 
 - Description of the vulnerability
 - Steps to reproduce or proof of concept
